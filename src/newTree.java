@@ -12,8 +12,30 @@ public class newTree extends JFrame {
         setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        String response = JOptionPane.showInputDialog("Enter the number of folders:");
-        int folderCount = Integer.parseInt(response);
+//        String response = JOptionPane.showInputDialog("Enter the number of folders:");
+        int folderCount = -1;
+        while (folderCount < 0) {
+            try {
+                String response = JOptionPane.showInputDialog("Enter non-negative number of folders:");
+                if (Integer.parseInt(response) > 99) {
+                    folderCount = 99; // limit folder Max_size to 99
+                } else {
+                    folderCount = Integer.parseInt(response); // valid input
+                }
+            /*
+folderCount = Math.min(Integer.parseInt(response), 99);
+          the Math.min() function to assign the smaller of the parsed integer and 99 to folderCount.
+          This is a more concise way to achieve the same result.
+          * /
+*/
+
+            } catch (NumberFormatException e) {
+                //avoid special character input
+                JOptionPane.showMessageDialog(null, "Please enter a valid number.", "Error!", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+
+
 
         DefaultMutableTreeNode root = new DefaultMutableTreeNode("Root");
         createFolders(root, 1, folderCount);
@@ -26,7 +48,7 @@ public class newTree extends JFrame {
         tree.setCellEditor(new DefaultTreeCellEditor(tree, new DefaultTreeCellRenderer()));
 
         // Create the "Delete" button and its action listener
-        JButton deleteButton = new JButton("Delete");
+        JButton deleteButton = new JButton("Delete this Folder");
         deleteButton.addActionListener(e -> {
             // Get the current selection path
             TreePath currentSelection = tree.getSelectionPath();
@@ -54,7 +76,7 @@ public class newTree extends JFrame {
     private void createFolders(DefaultMutableTreeNode parent, int current, int folderCount) {
         if (current <= folderCount) {
             DefaultMutableTreeNode folder = new DefaultMutableTreeNode("Folder " + current);
-            for (int i = 1; i <= 3; i++) {
+            for (int i = 1; i <= 2; i++) {
                 DefaultMutableTreeNode file = new DefaultMutableTreeNode("File " + i);
                 folder.add(file);
             }
