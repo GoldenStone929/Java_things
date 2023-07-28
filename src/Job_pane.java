@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.io.*;
 import java.awt.event.*;
+import java.awt.Dimension;
+
 //import java.awt.event.ActionEvent;
 //import java.awt.event.ActionListener;
 //import java.awt.event.KeyAdapter;
@@ -12,13 +14,18 @@ import java.awt.event.*;
 //import java.io.IOException;
 
 public class Job_pane {
+//    frame.setSize(1500, 1500); wrong place to put
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(Job_pane::createAndShowGUI);
     }
 
     private static void createAndShowGUI() {
-        JFrame frame = new JFrame("Input Selector");
+        JFrame frame = new JFrame("Job Pane"); //declear and initialize variable
+        frame.setMinimumSize(new Dimension(500, 400));
+        frame.setMaximumSize(new Dimension(1024, 768));
+        frame.setPreferredSize(new Dimension(800, 600)); // set size of the pop out
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
 
@@ -81,13 +88,13 @@ public class Job_pane {
         fileButton.addActionListener(e -> fileChooser.showOpenDialog(frame));
 
         // Boolean radio buttons
-        JLabel booleanLabel = new JLabel("Boolean Value:");
+        JLabel booleanLabel = new JLabel("Are you satisfied:");
         frame.add(booleanLabel);
         ButtonGroup group = new ButtonGroup();
-        JRadioButton trueButton = new JRadioButton("True");
+        JRadioButton trueButton = new JRadioButton("Yes I am");
         group.add(trueButton);
         frame.add(trueButton);
-        JRadioButton falseButton = new JRadioButton("False");
+        JRadioButton falseButton = new JRadioButton("Nope, not at all");
         group.add(falseButton);
         frame.add(falseButton);
 
