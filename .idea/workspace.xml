@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Job_pane, Java Types">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="income input added, issue found &quot;case sensitive&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Job_Pane_Pro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
     </list>
@@ -98,7 +98,7 @@
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
       <workItem from="1690567875409" duration="3075000" />
-      <workItem from="1690575459901" duration="798000" />
+      <workItem from="1690575459901" duration="2297000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690571318243</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="income input added, issue found &quot;case sensitive&quot;">
+      <created>1690576342476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690576342476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add" />
     <MESSAGE value="Update" />
     <MESSAGE value="Job_pane, Java Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Job_pane, Java Types" />
+    <MESSAGE value="income input added, issue found &quot;case sensitive&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="income input added, issue found &quot;case sensitive&quot;" />
   </component>
 </project>

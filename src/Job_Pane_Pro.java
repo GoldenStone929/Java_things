@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class Job_Pane_Pro {
 
@@ -24,20 +26,33 @@ The add method is used to place components within a container (in this case, the
         JTextField nameField = new JTextField(10); //
         frame.add(nameField);
 
-        // Age field
+        // Age field ---------------------------------------------------------------
         JLabel ageLabel = new JLabel("Age (Int):"); // create a label
         frame.add(ageLabel); // add it to the frame
-
         JTextField ageField = new JTextField(3);
-//        the '3' argument means the text field is sized to display 10 characters wide.
+
+
+        ageField.addKeyListener(new KeyAdapter() {
+            public void text_rules (KeyEvent e) {
+                char c = e.getKeyChar();
+                if (ageField.getText().length() > 3) {
+                    e.consume();
+                    System.out.print("please enter age between 1 and 100!");
+                } else if (!Character.isDigit(c)) {
+                    e.consume();
+                    System.out.print("Please enter a number!");
+                }
+            }
+        });
+
         frame.add(ageField); // add it to the frame
 
 
-        // income field
+        // income field  ---------------------------------------------------------------
         JLabel incomeLabel = new JLabel("Income (Int):");
         frame.add(incomeLabel);
 
-        JTextField incomeField = new JTextField(3);
+        JTextField incomeField = new JTextField(10);
         frame.add(incomeField);
 
         /* Income field
@@ -52,7 +67,7 @@ The add method is used to place components within a container (in this case, the
 
 
 
-        // Gender field with dropdown list
+        // Gender field with dropdown list  ---------------------------------------------------------------
         JLabel genderLabel = new JLabel("Gender:");
         frame.add(genderLabel);
 
@@ -60,6 +75,29 @@ The add method is used to place components within a container (in this case, the
         JComboBox<String> genderSelector = new JComboBox<>(genders);
         frame.add(genderSelector);
 
+        // File input    ---------------------------------------------------------------
+        JLabel fileLabel = new JLabel("Input File:");
+        frame.add(fileLabel);
+
+        JButton fileButton = new JButton("Choose File");
+        frame.add(fileButton);
+
+        JFileChooser fileChooser = new JFileChooser();
+        fileButton.addActionListener(e -> fileChooser.showOpenDialog(frame));
+
+        // Boolean radio buttons ---------------------------------------------------------------
+        JLabel booleanLabel = new JLabel("Boolean Value:");
+        frame.add(booleanLabel);
+
+        ButtonGroup group = new ButtonGroup();
+
+        JRadioButton trueButton = new JRadioButton("True");
+        group.add(trueButton);
+        frame.add(trueButton);
+
+        JRadioButton falseButton = new JRadioButton("False");
+        group.add(falseButton);
+        frame.add(falseButton);
 
 
 
