@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Main transfered to Job_pane, Job_pane_Pro become a backUp&#10;Fixed JFrame title string for NewTree&#10;add KeyListener for income field, which specified rules">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="modified the pop out JFrame size, title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Job_pane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_pane.java" afterDir="false" />
     </list>
@@ -98,7 +98,7 @@
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
       <workItem from="1690567875409" duration="3075000" />
-      <workItem from="1690575459901" duration="5157000" />
+      <workItem from="1690575459901" duration="5893000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690580165974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modified the pop out JFrame size, title">
+      <created>1690580916265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690580916266</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,7 @@
     <MESSAGE value="income input added, issue found &quot;case sensitive&quot;" />
     <MESSAGE value="&quot;addKeyListener&quot;&#10;&quot;KeyEvent&quot;&#10;fixed &quot;e&quot; type&#10;for &quot;.isDigit&quot;, a character needs to be passed in.&#10;&#10;New features:&#10;Income&#10;Upload File&#10;Booleam something" />
     <MESSAGE value="Main transfered to Job_pane, Job_pane_Pro become a backUp&#10;Fixed JFrame title string for NewTree&#10;add KeyListener for income field, which specified rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main transfered to Job_pane, Job_pane_Pro become a backUp&#10;Fixed JFrame title string for NewTree&#10;add KeyListener for income field, which specified rules" />
+    <MESSAGE value="modified the pop out JFrame size, title" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the pop out JFrame size, title" />
   </component>
 </project>
