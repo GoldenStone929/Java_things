@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add">
-      <change beforePath="$PROJECT_DIR$/src/newTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newTree.java" afterDir="false" />
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Job_pane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +38,27 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/sc/Java_things",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.newTree">
+  <component name="RunManager" selected="Application.Job_Pane_Pro">
+    <configuration name="Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Job_Pane_Pro" />
+      <module name="Java_GUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Job_pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Job_pane" />
+      <module name="Java_GUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TreeViewer" />
       <module name="Java_GUI" />
@@ -64,6 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Job_Pane_Pro" />
+        <item itemvalue="Application.Job_pane" />
         <item itemvalue="Application.newTree" />
         <item itemvalue="Application.TreeViewer" />
         <item itemvalue="Application.rec_TreeStr" />
@@ -79,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
-      <workItem from="1690567875409" duration="57000" />
+      <workItem from="1690567875409" duration="1929000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -102,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690488302081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1690567989508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690567989508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +151,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="new change of generate a tree structure as user's preference. Explanation added" />
     <MESSAGE value="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
