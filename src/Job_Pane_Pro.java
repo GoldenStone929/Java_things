@@ -3,6 +3,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.*;
+
+
+
+
 
 public class Job_Pane_Pro {
 
@@ -102,41 +107,70 @@ The add method is used to place components within a container (in this case, the
 
 
 
-
-
         // Submit button
         JButton submitButton = new JButton("Submit");
+
         submitButton.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
-                String name = nameField.getText();
-                if (!name.matches("[a-zA-Z]+")) {
-                    JOptionPane.showMessageDialog(frame, "Invalid name. Only alphabets are allowed.");
-                    return;
-                }
-
-                String age = ageField.getText();
                 try {
-                    Integer.parseInt(age);
-                } catch (NumberFormatException ex) {
-                    JOptionPane.showMessageDialog(frame, "Invalid age. Only integers are allowed.");
-                    return;
+                    // Create a JFileChooser
+                    JFileChooser fileChooser = new JFileChooser();
+
+                    // Show the save dialog
+                    int returnValue = fileChooser.showSaveDialog(null);
+
+                    if (returnValue == JFileChooser.APPROVE_OPTION) {
+                        // Get the selected file
+                        File selectedFile = fileChooser.getSelectedFile();
+
+                        // Get the information you want to save
+                        String infoToSave = ageField.getText();  // replace with the information you want to save
+
+                        // Use a BufferedWriter to write the information to the file
+                        BufferedWriter writer = new BufferedWriter(new FileWriter(selectedFile, true));
+                        writer.write(infoToSave);
+                        writer.newLine();
+                        writer.close();
+                    }
+                } catch (IOException ex) {
+                    ex.printStackTrace();
                 }
-
-                String gender = (String) genderSelector.getSelectedItem();
-
-                // Show submitted data
-                JOptionPane.showMessageDialog(frame,
-                        "Name: " + name + "\n" +
-                                "Age: " + age + "\n" +
-                                "Gender: " + gender);
-
-                // Clear the fields
-                nameField.setText("");
-                ageField.setText("");
-                genderSelector.setSelectedIndex(0);
             }
         });
+
+
+
+//        submitButton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                String name = nameField.getText();
+//                if (!name.matches("[a-zA-Z]+")) {
+//                    JOptionPane.showMessageDialog(frame, "Invalid name. Only alphabets are allowed.");
+//                    return;
+//                }
+//
+//                String age = ageField.getText();
+//                try {
+//                    Integer.parseInt(age);
+//                } catch (NumberFormatException ex) {
+//                    JOptionPane.showMessageDialog(frame, "Invalid age. Only integers are allowed.");
+//                    return;
+//                }
+//
+//                String gender = (String) genderSelector.getSelectedItem();
+//
+//                // Show submitted data
+//                JOptionPane.showMessageDialog(frame,
+//                        "Name: " + name + "\n" +
+//                                "Age: " + age + "\n" +
+//                                "Gender: " + gender);
+//
+//                // Clear the fields
+//                nameField.setText("");
+//                ageField.setText("");
+//                genderSelector.setSelectedIndex(0);
+//            }
+//        });
         frame.add(submitButton);
 
         frame.pack();

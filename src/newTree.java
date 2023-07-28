@@ -14,7 +14,7 @@ public class newTree extends JFrame {
     private final DefaultTreeModel treeModel; // The tree model is the data object that holds the tree structure.
 
     public newTree() {
-        setTitle("Tree Viewer");
+        setTitle("New Tree");
         setSize(2500, 2500); // set the size of the JFrame
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 

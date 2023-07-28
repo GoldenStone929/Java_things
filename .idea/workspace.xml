@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="income input added, issue found &quot;case sensitive&quot;">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="&quot;addKeyListener&quot;&#10;&quot;KeyEvent&quot;&#10;fixed &quot;e&quot; type&#10;for &quot;.isDigit&quot;, a character needs to be passed in.&#10;&#10;New features:&#10;Income&#10;Upload File&#10;Booleam something">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Job_Pane_Pro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job_pane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_pane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Job_Pane_Pro">
+  <component name="RunManager" selected="Application.Job_pane">
+    <configuration name="Job_Pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Job_Pane" />
+      <module name="Java_GUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Job_Pane_Pro" />
       <module name="Java_GUI" />
@@ -71,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rec_TreeStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rec_TreeStr" />
-      <module name="Java_GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Job_Pane_Pro" />
         <item itemvalue="Application.Job_pane" />
+        <item itemvalue="Application.Job_Pane" />
+        <item itemvalue="Application.Job_Pane_Pro" />
         <item itemvalue="Application.newTree" />
         <item itemvalue="Application.TreeViewer" />
-        <item itemvalue="Application.rec_TreeStr" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +100,7 @@
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
       <workItem from="1690567875409" duration="3075000" />
-      <workItem from="1690575459901" duration="2297000" />
+      <workItem from="1690575459901" duration="4539000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690576342476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;addKeyListener&quot;&#10;&quot;KeyEvent&quot;&#10;fixed &quot;e&quot; type&#10;for &quot;.isDigit&quot;, a character needs to be passed in.&#10;&#10;New features:&#10;Income&#10;Upload File&#10;Booleam something">
+      <created>1690578055439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690578055439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Job_pane, Java Types" />
     <MESSAGE value="income input added, issue found &quot;case sensitive&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="income input added, issue found &quot;case sensitive&quot;" />
+    <MESSAGE value="&quot;addKeyListener&quot;&#10;&quot;KeyEvent&quot;&#10;fixed &quot;e&quot; type&#10;for &quot;.isDigit&quot;, a character needs to be passed in.&#10;&#10;New features:&#10;Income&#10;Upload File&#10;Booleam something" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;addKeyListener&quot;&#10;&quot;KeyEvent&quot;&#10;fixed &quot;e&quot; type&#10;for &quot;.isDigit&quot;, a character needs to be passed in.&#10;&#10;New features:&#10;Income&#10;Upload File&#10;Booleam something" />
   </component>
 </project>
