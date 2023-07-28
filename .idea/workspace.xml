@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/newTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sc/Java_things",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -79,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
+      <workItem from="1690567875409" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
