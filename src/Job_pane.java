@@ -95,7 +95,7 @@ public class Job_pane {
         JComboBox<String> genderSelector = new JComboBox<>(genders);
         frame.add(genderSelector);
 
-        // File input
+        // File input: we do not do anything yet
         JLabel fileLabel = new JLabel("Input File:");
         frame.add(fileLabel);
         JButton fileButton = new JButton("Choose File");
