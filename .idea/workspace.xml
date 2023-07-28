@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Job_pane.java" afterDir="false" />
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Job_pane, Java Types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Job_Pane_Pro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sc/Java_things",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sc/Java_things&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Job_Pane_Pro">
     <configuration name="Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Job_Pane_Pro" />
@@ -99,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1690483483156</updated>
       <workItem from="1690483484450" duration="5946000" />
-      <workItem from="1690567875409" duration="1929000" />
+      <workItem from="1690567875409" duration="3075000" />
+      <workItem from="1690575459901" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -129,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690567989508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Job_pane, Java Types">
+      <created>1690571318243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690571318243</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +158,7 @@
     <MESSAGE value="new change of generate a tree structure as user's preference. Explanation added" />
     <MESSAGE value="&quot;Delete folder&quot; and &quot;Rename folder&quot; feature add" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Job_pane, Java Types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Job_pane, Java Types" />
   </component>
 </project>

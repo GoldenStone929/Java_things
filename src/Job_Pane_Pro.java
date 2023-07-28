@@ -15,17 +15,42 @@ public class Job_Pane_Pro {
 
         // Parameter name field
         JLabel nameLabel = new JLabel("Name (String):");
+//        - This line of code creates a new JLabel object with the text "Age (Int):".
+//        The text within the parentheses is what will be displayed as the label.
         frame.add(nameLabel);
+/* This line adds the ageLabel object to the JFrame object represented by the variable frame.
+The add method is used to place components within a container (in this case, the JFrame).*/
 
-        JTextField nameField = new JTextField(10);
+        JTextField nameField = new JTextField(10); //
         frame.add(nameField);
 
         // Age field
-        JLabel ageLabel = new JLabel("Age (Int):");
-        frame.add(ageLabel);
+        JLabel ageLabel = new JLabel("Age (Int):"); // create a label
+        frame.add(ageLabel); // add it to the frame
 
-        JTextField ageField = new JTextField(10);
-        frame.add(ageField);
+        JTextField ageField = new JTextField(3);
+//        the '3' argument means the text field is sized to display 10 characters wide.
+        frame.add(ageField); // add it to the frame
+
+
+        // income field
+        JLabel incomeLabel = new JLabel("Income (Int):");
+        frame.add(incomeLabel);
+
+        JTextField incomeField = new JTextField(3);
+        frame.add(incomeField);
+
+        /* Income field
+        JLabel incomeLabel = new JLabel("Income (Int):");
+        frame.add(incomeLabel);
+
+        JTextField incomeField = new JTextField(3);
+        frame.add(incomeField);
+        note: case sensitive, wrong spell will lead to error
+        */
+
+
+
 
         // Gender field with dropdown list
         JLabel genderLabel = new JLabel("Gender:");
@@ -34,6 +59,12 @@ public class Job_Pane_Pro {
         String[] genders = {"Male", "Female", "Other"};
         JComboBox<String> genderSelector = new JComboBox<>(genders);
         frame.add(genderSelector);
+
+
+
+
+
+
 
         // Submit button
         JButton submitButton = new JButton("Submit");
