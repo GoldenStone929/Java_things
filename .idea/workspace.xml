@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)">
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/FileB.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +128,7 @@
       <workItem from="1690575459901" duration="11565000" />
       <workItem from="1690824481461" duration="738000" />
       <workItem from="1690825374423" duration="1276000" />
-      <workItem from="1690826672534" duration="1939000" />
+      <workItem from="1690826672534" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690827060631</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file">
+      <created>1690828735034</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690828735034</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +276,7 @@
     <MESSAGE value="modified file path" />
     <MESSAGE value="Java Strucuture issue, Src -&gt; source root, however the files are all red but compiles fine" />
     <MESSAGE value="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)" />
+    <MESSAGE value="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
+    <option name="LAST_COMMIT_MESSAGE" value="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
   </component>
 </project>
