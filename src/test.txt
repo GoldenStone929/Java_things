@@ -1,5 +1,0 @@
-name: Shawn
-Age: 23
-Gender: Male
-
-Birthday: 1999.09.29

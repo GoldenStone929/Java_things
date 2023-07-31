@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="fixed many issue, not Job_Pane_Pro becomes the main(most recent),&#10;issue with file input&#10;submit -&gt; save file issue">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Job_Pane_Pro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_Pane_Pro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Job_pane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job_pane.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +98,7 @@
       <workItem from="1690483484450" duration="5946000" />
       <workItem from="1690567875409" duration="3075000" />
       <workItem from="1690575459901" duration="11565000" />
+      <workItem from="1690824481461" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690583142037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file">
+      <created>1690824862587</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690824862587</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,7 @@
     <MESSAGE value="modified the pop out JFrame size, title" />
     <MESSAGE value="JOptionPane.showMessageDialog(frame, &quot;Please enter a valid + ...&quot;);&#10;this will print to Dialog instead of console &#10;&#10;issue about Character length, it is gonna check before you finish entering, so if you limit the length of the input character e.g., Character.getText().Length() &lt; 2, if will terminate and consume whatever you put in, because you can only enter one char at a time" />
     <MESSAGE value="fixed many issue, not Job_Pane_Pro becomes the main(most recent),&#10;issue with file input&#10;submit -&gt; save file issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed many issue, not Job_Pane_Pro becomes the main(most recent),&#10;issue with file input&#10;submit -&gt; save file issue" />
+    <MESSAGE value="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file" />
+    <option name="LAST_COMMIT_MESSAGE" value="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file" />
   </component>
 </project>
