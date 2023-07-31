@@ -40,9 +40,10 @@ public class Job_Pane_Pro {
         ageField.addKeyListener(new KeyAdapter() {
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
-                if (ageField.getText().length() > 3) {
+                if (ageField.getText().length() >= 3) {
                     e.consume();
-                    System.out.println("Please enter age between 1 and 100!");
+//                    System.out.println("Please enter age between 1 and 100!");
+                    JOptionPane.showMessageDialog(frame, "Do you not know your own Age?");
                 } else if (!Character.isDigit(c)) {
                     e.consume();
                     JOptionPane.showMessageDialog(frame, "Do you not know your own Age?");
@@ -59,7 +60,7 @@ public class Job_Pane_Pro {
         incomeField.addKeyListener(new KeyAdapter() {
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
-                if (!Character.isDigit(c) || incomeField.getText().length() < 0 || incomeField.getText().length() > 12) {
+                if (!Character.isDigit(c) || incomeField.getText().length() > 12) {
                     e.consume();
                     JOptionPane.showMessageDialog(frame, "Get serious, what is your income?");
                 }

@@ -45,11 +45,6 @@ public class Job_pane {
 
 
 
-
-
-
-
-
         // Age field
         JLabel ageLabel = new JLabel("Age (Int):");
         frame.add(ageLabel);
