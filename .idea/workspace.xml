@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/FileIOExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treeandjobpane/Job_Pane_Pro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treeandjobpane/Job_pane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treeandjobpane/TreeViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treeandjobpane/newTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIO/FileB.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIO/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +44,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.treeandjobpane.Job_pane">
+  <component name="RunManager" selected="Application.FileWrite">
     <configuration name="FileIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIO.FileIOExample" />
+      <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.FileWrite" />
       <module name="Java_GUI" />
       <extension name="coverage">
         <pattern>
@@ -88,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="treeandjobpane.Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="treeandjobpane.Job_Pane_Pro" />
-      <module name="Java_GUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="treeandjobpane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="treeandjobpane.Job_pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="treeandjobpane.Job_pane" />
       <module name="Java_GUI" />
@@ -116,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileWrite" />
         <item itemvalue="Application.treeandjobpane.Job_pane" />
         <item itemvalue="Application.FileIOExample" />
         <item itemvalue="Application.newTree" />
         <item itemvalue="Application.TreeViewer" />
-        <item itemvalue="Application.treeandjobpane.Job_Pane_Pro" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +133,7 @@
       <workItem from="1690575459901" duration="11565000" />
       <workItem from="1690824481461" duration="738000" />
       <workItem from="1690825374423" duration="1276000" />
-      <workItem from="1690826672534" duration="333000" />
+      <workItem from="1690826672534" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -237,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690826517606</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)">
+      <created>1690827060631</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690827060631</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
