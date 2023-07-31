@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="modified file path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,49 +41,79 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Job_pane">
-    <configuration name="Job_Pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Job_Pane" />
+  <component name="RunManager" selected="Application.FileIOExample">
+    <configuration name="FileIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.FileIOExample" />
       <module name="Java_GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Job_Pane_Pro" />
-      <module name="Java_GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Job_pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Job_pane" />
-      <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TreeViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeViewer" />
+      <option name="MAIN_CLASS_NAME" value="treeandjobpane.TreeViewer" />
       <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treeandjobpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="newTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newTree" />
+      <option name="MAIN_CLASS_NAME" value="treeandjobpane.newTree" />
       <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treeandjobpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="treeandjobpane.Job_Pane_Pro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treeandjobpane.Job_Pane_Pro" />
+      <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treeandjobpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="treeandjobpane.Job_pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treeandjobpane.Job_pane" />
+      <module name="Java_GUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treeandjobpane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Job_pane" />
-        <item itemvalue="Application.Job_Pane" />
-        <item itemvalue="Application.Job_Pane_Pro" />
+        <item itemvalue="Application.FileIOExample" />
         <item itemvalue="Application.newTree" />
         <item itemvalue="Application.TreeViewer" />
+        <item itemvalue="Application.treeandjobpane.Job_Pane_Pro" />
+        <item itemvalue="Application.treeandjobpane.Job_pane" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +129,7 @@
       <workItem from="1690567875409" duration="3075000" />
       <workItem from="1690575459901" duration="11565000" />
       <workItem from="1690824481461" duration="738000" />
+      <workItem from="1690825374423" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -184,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690824862587</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modified file path">
+      <created>1690825394708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690825394708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +253,7 @@
     <MESSAGE value="JOptionPane.showMessageDialog(frame, &quot;Please enter a valid + ...&quot;);&#10;this will print to Dialog instead of console &#10;&#10;issue about Character length, it is gonna check before you finish entering, so if you limit the length of the input character e.g., Character.getText().Length() &lt; 2, if will terminate and consume whatever you put in, because you can only enter one char at a time" />
     <MESSAGE value="fixed many issue, not Job_Pane_Pro becomes the main(most recent),&#10;issue with file input&#10;submit -&gt; save file issue" />
     <MESSAGE value="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file" />
-    <option name="LAST_COMMIT_MESSAGE" value="new: testing java file I/O with file &quot;test.txt&quot;, correctly read file" />
+    <MESSAGE value="modified file path" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified file path" />
   </component>
 </project>
