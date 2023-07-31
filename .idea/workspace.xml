@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="2 example needed to be tested later, csv file passed&#10;Issue: SDF read and write, excel file read and write">
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/FileIOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/FileRead.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +41,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileWrite">
-    <configuration name="FileIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.FileIOExample" />
+  <component name="RunManager" selected="Application.JavaIO.FileWrite">
+    <configuration name="FileRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.FileRead" />
       <module name="Java_GUI" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaIO.FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIO.FileWrite" />
       <module name="Java_GUI" />
       <extension name="coverage">
@@ -107,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileWrite" />
+        <item itemvalue="Application.JavaIO.FileWrite" />
         <item itemvalue="Application.treeandjobpane.Job_pane" />
-        <item itemvalue="Application.FileIOExample" />
+        <item itemvalue="Application.FileRead" />
         <item itemvalue="Application.newTree" />
         <item itemvalue="Application.TreeViewer" />
       </list>
@@ -128,7 +130,7 @@
       <workItem from="1690575459901" duration="11565000" />
       <workItem from="1690824481461" duration="738000" />
       <workItem from="1690825374423" duration="1276000" />
-      <workItem from="1690826672534" duration="2541000" />
+      <workItem from="1690826672534" duration="2839000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -242,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690828735034</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="2 example needed to be tested later, csv file passed&#10;Issue: SDF read and write, excel file read and write">
+      <created>1690829420902</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690829420902</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +286,7 @@
     <MESSAGE value="Java Strucuture issue, Src -&gt; source root, however the files are all red but compiles fine" />
     <MESSAGE value="files were all Red after structure modifciation, need to add &quot;package + folder name&quot; for each file under &quot;src&quot;, make sure &quot;src&quot; is marked as &quot;Resources root&quot;, once it is done and compiles &amp; runs with no bug, &quot;git add .&quot; to solve the issue. (&quot;It means that the files exist locally, but are not in the repository, and are not scheduled for addition. With other words, the files are not under version control.&quot;)" />
     <MESSAGE value="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="read file A (.txt), read file B (.csv),&#10;Put both together and output to a file" />
+    <MESSAGE value="2 example needed to be tested later, csv file passed&#10;Issue: SDF read and write, excel file read and write" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 example needed to be tested later, csv file passed&#10;Issue: SDF read and write, excel file read and write" />
   </component>
 </project>

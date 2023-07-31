@@ -5,7 +5,7 @@ import java.io.*;
 
 // this is for read file
 
-public class FileIOExample {
+public class FileRead {
     public static void main(String[] args) {
 //        String path = "/Users/sc/Java_things/src/test.txt";
         String path = "/Users/sc/Desktop/Java_things/src/JavaIO/test.txt";

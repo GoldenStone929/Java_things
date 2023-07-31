@@ -4,6 +4,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.io.IOException;
 
+/*With StandardOpenOption.CREATE, if the file doesn't already exist, it will be created. With StandardOpenOption.WRITE,
+if the file does exist, its content will be truncated (cleared) before the new content is written.*/
 public class FileWrite {
     public static void main(String[] args) {
         String pathA = "/Users/sc/Desktop/Java_things/src/JavaIO/test.txt";
