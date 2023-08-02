@@ -26,7 +26,7 @@ public class FileRead {
             System.out.println(content);
         } catch (IOException e) {
             e.printStackTrace();
-        } // this is for SDF file read result
+        } // this is for SDF file ore
     }
 }
 
