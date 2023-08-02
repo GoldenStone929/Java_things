@@ -55,3 +55,27 @@ BH-50408
 			
 			
 			
+
+Compound_ID	Notes	Tips on creatine this sheet	
+BH-50316	a set of KRAS cmpds	1) the "Compound_ID" column is mandatory	
+BH-50317		2) the "Notes" column is for your own.	
+			
+BH-50394		3) empty lines are ignored. 	
+BH-50408			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

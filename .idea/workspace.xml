@@ -47,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.scitegic.proxy.examples.ZP_xmldbItem_test">
+  <component name="RunManager" selected="Application.excelWrite (1)">
     <configuration name="JavaIO.ExcelRead" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIO.ExcelRead" />
       <module name="Java_GUI" />
@@ -102,13 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="POI_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POI_test" />
-      <module name="Java_GUI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZP_xmldbItem_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZP_xmldbItem_test" />
       <module name="Java_GUI" />
@@ -125,6 +118,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="excelWrite (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excelWrite" />
+      <module name="Java_GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,15 +150,15 @@
       <item itemvalue="Application.com.scitegic.proxy.examples.ZP_xmldbItem_test" />
       <item itemvalue="Application.Job_Pane_Pro" />
       <item itemvalue="Application.Job_pane" />
-      <item itemvalue="Application.POI_test" />
+      <item itemvalue="Application.excelWrite (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.excelWrite (1)" />
         <item itemvalue="Application.com.scitegic.proxy.examples.ZP_xmldbItem_test" />
         <item itemvalue="Application.ZP_xmldbItem_test" />
         <item itemvalue="Application.Job_pane" />
         <item itemvalue="Application.Job_Pane_Pro" />
-        <item itemvalue="Application.POI_test" />
       </list>
     </recent_temporary>
   </component>
