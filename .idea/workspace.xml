@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="POI library correctly set up, the environment for Excel read/write">
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/excelRead2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" afterDir="false" />
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaIO/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_GUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,8 @@
       <workItem from="1690825374423" duration="1276000" />
       <workItem from="1690826672534" duration="3727000" />
       <workItem from="1691000006261" duration="5598000" />
-      <workItem from="1691005825845" duration="760000" />
+      <workItem from="1691005825845" duration="1857000" />
+      <workItem from="1691007758075" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -292,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691004679904</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library">
+      <created>1691006964426</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691006964426</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +337,7 @@
     <MESSAGE value="work done, 07.31.2023" />
     <MESSAGE value="start testing Excel file and SDF file" />
     <MESSAGE value="POI library correctly set up, the environment for Excel read/write" />
-    <option name="LAST_COMMIT_MESSAGE" value="POI library correctly set up, the environment for Excel read/write" />
+    <MESSAGE value="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library" />
+    <option name="LAST_COMMIT_MESSAGE" value="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library" />
   </component>
 </project>
