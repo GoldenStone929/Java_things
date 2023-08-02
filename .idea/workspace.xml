@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library">
+    <list default="true" id="9f423c86-b778-4951-a161-6c315b5973b1" name="Changes" comment="Update 'src' to be source root, fixed &quot;calss path not found in module 'Java_GUI'&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_GUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/ExcelRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/ExcelRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/FileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/excelRead2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/excelWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/outputExcel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/NewExcel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaIO/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaIO/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +49,15 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.excelRead2">
+  <component name="RunManager" selected="Application.excelWrite (1)">
     <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExcelRead" />
+      <module name="Java_GUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaIO.ExcelRead" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIO.ExcelRead" />
       <module name="Java_GUI" />
       <extension name="coverage">
@@ -60,23 +70,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIO.FileRead" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="JavaIO/FileWrite" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="JavaIO/FileWrite" />
-      <module name="Java_GUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaIO.FileWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.FileWrite" />
       <module name="Java_GUI" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPOI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPOI" />
+    <configuration name="excelWrite (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excelWrite" />
       <module name="Java_GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="excelRead2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaIO.excelRead2" />
+    <configuration name="excelWrite" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIO.excelWrite" />
       <module name="Java_GUI" />
       <extension name="coverage">
         <pattern>
@@ -116,20 +113,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JavaIO.FileRead" />
-      <item itemvalue="Application.excelRead2" />
+      <item itemvalue="Application.JavaIO.ExcelRead" />
+      <item itemvalue="Application.JavaIO/FileWrite" />
+      <item itemvalue="Application.excelWrite" />
+      <item itemvalue="Application.excelWrite (1)" />
       <item itemvalue="Application.ExcelRead" />
-      <item itemvalue="Application.JavaIO.FileWrite" />
       <item itemvalue="Application.POI_test" />
-      <item itemvalue="Application.TestPOI" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.excelRead2" />
+        <item itemvalue="Application.excelWrite (1)" />
         <item itemvalue="Application.ExcelRead" />
         <item itemvalue="Application.POI_test" />
-        <item itemvalue="Application.TestPOI" />
-        <item itemvalue="Application.JavaIO.FileWrite" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +144,7 @@
       <workItem from="1690826672534" duration="3727000" />
       <workItem from="1691000006261" duration="5598000" />
       <workItem from="1691005825845" duration="1857000" />
-      <workItem from="1691007758075" duration="302000" />
+      <workItem from="1691007758075" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690485265370</created>
@@ -298,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691006964426</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update 'src' to be source root, fixed &quot;calss path not found in module 'Java_GUI'&quot;">
+      <created>1691008102143</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691008102143</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +340,7 @@
     <MESSAGE value="start testing Excel file and SDF file" />
     <MESSAGE value="POI library correctly set up, the environment for Excel read/write" />
     <MESSAGE value="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library" />
-    <option name="LAST_COMMIT_MESSAGE" value="successfully Read Excel file &quot;.xlsx&quot;, and write it into &quot;.txt&quot;, combined with another &quot;.txt&quot; file -&gt; output as a new &quot;.txt&quot; file. Note: POI library" />
+    <MESSAGE value="Update 'src' to be source root, fixed &quot;calss path not found in module 'Java_GUI'&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 'src' to be source root, fixed &quot;calss path not found in module 'Java_GUI'&quot;" />
   </component>
 </project>

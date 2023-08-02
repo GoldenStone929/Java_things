@@ -1,4 +1,4 @@
-package JavaIO;
+//package JavaIO;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
@@ -6,14 +6,14 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class excelRead2 {
+public class excelWrite {
     public static void main(String[] args) {
 //        String txtTest = "Hi this is a random string for .xlsx test!";
         String txtPath = "/Users/sc/Desktop/Java_things/src/JavaIO/test.txt";
         String xlsxPath = "/Users/sc/Desktop/Java_things/src/JavaIO/excel.xlsx";
 
 
-        String outputPath = "/Users/sc/Desktop/Java_things/src/JavaIO/outputExcel.txt";
+        String outputPath = "/Users/sc/Desktop/Java_things/src/JavaIO/NewExcel.txt";
 
 
 
