@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class ExcelRead {
     public static void main(String[] args) {
-        try (FileInputStream fis = new FileInputStream(new File("/Users/sc/Desktop/Java_things/src/JavaIO/excelFile.xlsx"));
+        try (FileInputStream fis = new FileInputStream(new File("/Users/sc/Desktop/Java_things/src/JavaIO/excel.xlsx"));
              Workbook workbook = new XSSFWorkbook(fis)) {
 
             Sheet sheet = workbook.getSheetAt(0);  // Get the first sheet

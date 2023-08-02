@@ -9,7 +9,7 @@ public class FileRead {
     public static void main(String[] args) {
 //        String path = "/Users/sc/Java_things/src/test.txt";
 //        String path = "/Users/sc/Desktop/Java_things/src/JavaIO/test.txt";
-          String path_Excel = "/Users/sc/Desktop/Java_things/src/JavaIO/excelFile.xlsx";
+          String path_Excel = "/Users/sc/Desktop/Java_things/src/JavaIO/excel.xlsx";
           String path_SDF = "/Users/sc/Desktop/Java_things/src/JavaIO/sdfExample.sdf";
 
 
